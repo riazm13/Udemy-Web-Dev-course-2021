@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range and Text Area</title>
+</head>
+<body>
+    <p>
+
+        <label for="cheese">Amount of Cheese</label><br>
+        <input type="range" name="cheese_level" id="cheese" value="2" min="1" max="10"><br>
+        <input type="number" name="num" min="1" max="100" value="1"><br>
+        <button>Submit</button>
+    </p>
+    <p>
+<! textarea !>
+    <label for="requests">Any Special Requests</label><br>
+    <textarea name="" id="requests" cols="30" rows="10" placeholder="Type something here"></textarea>
+    </p>
+
+
+    <p>
+        <form action="">
+            <div>
+                <label for="username">Username</label>
+                <textarea name="" id="username" cols="15" rows="1" placeholder="username"></textarea>
+            </div>
+            <div>
+                <label for="passord">Passord</label>
+                <textarea name="passord" id="passord" cols="15" rows="1" placeholder="passord"></textarea>
+            </div>
+            <button>Register</button>
+        </form>
+    </p>
+
+
+    <! Form Validation !>
+    
+    <h1>Race Registration!</h1>
+    <form action="/dummy">
+    <div>
+        <label for="first">Enter First Name </label>
+        <input type="text" name="firstname" id="first" required><br>
+        <label for="last">Enter Last Name </label>
+        <input type="text" name="lastname" id="last" required><br>
+    </div>
+    <P>Select a Race:</P>
+    <div>
+        <label for="funrun">Fun Run 5K</label>
+        <input type="radio" name="race" id="funrun" value="funrun"><br>
+        <label for="halfmarathon">Half Marathon</label>
+        <input type="radio" name="race" id="halfmarathon" value="halfmarathon"><br>
+        <label for="marathon">Full Marathon</label>
+        <input type="radio" name="race" id="marathon" value="marathon"><br>
+    </div>
+    <div>
+        <label for="email">Enter Email Address </label>
+        <input type="email" name="email" id="email" required><br>
+        <label for="password">Enter Password </label>
+        <input type="password" name="password" id="password" required>
+    </div>
+
+    <div>
+        <label for="division">Select Age Group</label>
+        <select name="division" id="division">
+            <option value="" placeholder>Please Select an option</option>
+            <option value="children">unsder 18</option>
+            <option value="youngadults">18 - 29</option>
+            <option value="adults">30 - 50</option>
+            <option value="seniors">50+</option>
+        </select>
+
+    </div>
+        <button>Register</button>
+    </form>
+
+
+</body>
+</html>

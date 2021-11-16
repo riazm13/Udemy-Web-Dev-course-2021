@@ -1,0 +1,38 @@
+div {
+    width: 300px;
+    height: 200px;
+    background-color: beige;
+}
+
+h1 {
+    background-color: beige;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+
+#one {
+    background-color: #fca311;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#two {
+    background-color: #ffe5d9;
+    border-color: #fdffb6;
+    border-width: 3px;
+    border-style: dashed double none;
+    border-left-width: 8px;
+    padding-right: 50px;
+    margin: 200px;
+}
+
+#three {
+    background-color: whitesmoke;
+
+    border-style: 10px black;
+
+}

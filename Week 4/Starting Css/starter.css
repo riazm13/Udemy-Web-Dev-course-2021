@@ -1,0 +1,54 @@
+/* * {
+    background-color: cyan;
+} */
+
+body {
+    background-color: #ffbf69;
+}
+
+button {
+    font-size: 30px;
+    background-color: #3a86ff;
+}
+
+#signup {
+
+    background-color: #ff006e;
+    color: black;
+}
+
+h1,
+h2,
+h3 {
+    color: #293241;
+}
+
+section {
+    background-color: black;
+}
+
+.post p {
+    color: aquamarine;
+}
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+    color: #ff006e;
+}
+
+button:active {
+    background-color: black;
+    color: bisque;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #ffbf69;
+}

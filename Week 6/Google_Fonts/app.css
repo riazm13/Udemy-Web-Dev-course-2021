@@ -1,0 +1,22 @@
+body {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: 100;
+}
+
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+main {
+    width: 60%;
+    margin-bottom: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Roboto, sans-serif;
+}

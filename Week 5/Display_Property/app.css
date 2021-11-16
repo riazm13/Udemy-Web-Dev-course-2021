@@ -1,0 +1,12 @@
+h1 {
+    color: black;
+    background-color: goldenrod;
+    border: 1px solid black;
+    display: inline;
+}
+
+span {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    display: block;
+}

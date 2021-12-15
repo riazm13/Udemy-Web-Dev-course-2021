@@ -66,3 +66,19 @@ sliceDemo2.replace("quick", "slow");
 // in this case "quick" is being switched with "slow"
 // this can also be used to replace patterns in regular expressions
 // will only work for the first instance of that variable
+
+// .repeat()
+
+//this will take the string in the variable and repeat it *by the times in the brackets*
+let repeatedStr = "lol";
+repeatedStr.repeat(15);
+//when logged this will print "lol" 15 times in a row
+
+//--------------------- TEST YOUR KNOWLEDGE ============================
+
+// DON'T TOUCH THIS LINE! (please)
+const word = "skateboard"; //Don't change this line!
+
+// YOUR CODE BELOW THIS LINE:
+
+let facialHair = word.slice(5, 10).replace("board", "beard");

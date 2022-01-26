@@ -47,12 +47,13 @@ function add(x, y) {
 
 //====== SELF TEST ==============
 
-function multiply(x, y) {
+function add(x, y) {
     if (typeof x !== 'number' || typeof y !== 'number') {
         return false;
     }
     let sum = x * y;
     return sum;
+    console.log(x + y);
 }
 
 //====== SELF TEST ==============

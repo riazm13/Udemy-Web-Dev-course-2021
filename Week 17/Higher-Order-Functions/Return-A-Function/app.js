@@ -47,8 +47,13 @@
 // console.log(makeBetweenFunc());
 // console.log(makeBetweenFunc2());
 
-console.log(makeBetweenFunc()); (min, max) {
+function makeBetweenFunc(min, max) {
     return function (num) {
         return num >= min && num <= max;
     }
 }
+
+const isUnderAge = makeBetweenFunc(0, 17);
+const isAdult = makeBetweenFunc(18, 55);
+
+const isAdult = makeBetweenFunc(56, 999999999);

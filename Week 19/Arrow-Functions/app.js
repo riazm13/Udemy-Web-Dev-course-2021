@@ -49,6 +49,15 @@ const newMovies = movies.map(movie => {
     return `${movie.title} - ${movie.score / 10}`
 })
 
-setTimeout(() => {
-    console.log("Hello");
-}, 3000)
+// setTimeout(() => {
+//     console.log("Hello");
+// }, 3000)
+// will set a timer before the code is run
+
+// console.log(Math.random());
+
+const id = setInterval(() => {
+    console.log(Math.random());
+}, 2000);
+
+clearInterval(id);

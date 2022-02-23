@@ -16,3 +16,10 @@ const links = document.querySelectorAll('p a');
 for (let link of links) {
     console.log(link.href)
 }
+
+// ================= SELF TEST ================
+
+// const image = document.getElementById('unicorn');
+// const heading = document.getElementById('mainheading');
+
+// ================= SELF TEST ================

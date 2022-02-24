@@ -23,3 +23,10 @@ for (let link of links) {
 // const heading = document.getElementById('mainheading');
 
 // ================= SELF TEST ================
+
+// Your code goes in here!
+
+// const doneTodos = document.querySelectorAll('.done');
+
+// let checkbox = document.querySelector("input[type='checkbox']");
+// ================= SELF TEST ================
